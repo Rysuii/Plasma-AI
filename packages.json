@@ -1,0 +1,24 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "An AI-powered Discord bot using Claude",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "claude",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
